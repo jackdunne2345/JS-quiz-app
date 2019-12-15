@@ -1,0 +1,42 @@
+.choice{
+    display: flex;
+    width: 50%;
+    font-size:1.8rem;
+    border:0.3rem solid #ccffff;
+    padding: 2rem;
+    background-color: #F7FEFE;
+}
+
+.num{
+    padding: 1.5rem 2.5rem;
+    background-color:#aad1d5;
+    color: aliceblue;
+    text-shadow: 1px 2px black;
+    border:0.2rem solid #ccffff;
+}
+
+.ans{
+    padding:1.5rem;
+    width:100%;
+}
+/*change colour on correct or wrong*/
+.true{
+    background-color: #2CBA76;
+
+}
+.true:hover{
+    background-color: #2CBA76;
+}
+
+.false{
+    background-color: #AF3030;
+}
+.false:hover{
+    background-color: #AF3030;
+}
+
+.score1{
+    font-size:1.8rem;
+    padding:1rem;
+    display:flex;
+}
